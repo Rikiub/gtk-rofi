@@ -17,11 +17,11 @@ configuration {
 }
 
 * {
-    background: {@window_bg_color}FF;
+    background: #151b2cFF;
     background-alt: #00000000;
-    background-bar: {@accent_color}99;
-    border: {@shade_color};
-    foreground: {@window_fg_color};
+    background-bar: #a96b9699;
+    border: #382b44;
+    foreground: #f3e6f3;
 }
 
 window {
@@ -119,3 +119,4 @@ element selected {
 	border:							0.1%;
     border-radius:                  4px;
 }
+
