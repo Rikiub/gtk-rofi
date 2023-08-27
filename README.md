@@ -16,7 +16,7 @@ chmod +x ./scripts/gtk-launcher.sh
 
 ## Usage
 
-Go to "scripts" folder and execute "gtk-launcher.sh", 
+Go to "scripts" folder and execute "gtk-launcher.sh".
 
 If you are using the adw-gtk3 execute "drun.sh" for a fast launch. "emoji.sh" is optional and you need [rofi-emoji](https://github.com/Mange/rofi-emoji) installed for use.
 
