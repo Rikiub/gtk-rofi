@@ -17,20 +17,23 @@ chmod +x ./scripts/gtk-launcher.sh
 
 ## Usage
 
+Go to "scripts" folder and execute "gtk-launcher.sh". Or instead, execute "drun.sh" for a fast launch.
+"emoji.sh" is optinal and you need [rofi-emoji](https://github.com/Mange/rofi-emoji) installed for use.
+
 ```shell
-./launcher.sh (Rofi arguments) (Your theme (without .rasi extension)
+./gtk-launcher.sh (Rofi arguments) (Your theme without .rasi extension)
 ```
 
 **Example:**
 
 ```shell
-./launcher.sh -show drun spotlight
+./gtk-launcher.sh -show drun gtk-runner
 ```
 
 **New command (fork):**
 
 ```shell
-./launcher.sh reset
+./gtk-launcher.sh reset
 ```
 
 *Use this for recreate templates manually*
