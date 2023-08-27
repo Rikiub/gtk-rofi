@@ -46,8 +46,16 @@ The script uses the ``templates`` folder to use the theme as a template, then it
 
 [Heres some themes that works](https://github.com/Rikiub/gtk-rofi/tree/ead60f170fdb05352b67a6401a6804fa0d92d361/templates)
 
-## Extra notes
+## Tips
+
+### Default Theme
 
 Per default [runner.rasi](https://github.com/Rikiub/gtk-rofi/blob/7085faea3a90e411a8e3dd944ec7e704c1e3822f/templates/runner.rasi) uses [GTK-4.0](https://github.com/lassekongo83/adw-gtk3/blob/099f364c7b938ab1defd39e2cce0b47cfcb198d8/gtk/src/adw-gtk3/gtk-4.0/gtk.css) style context colors. 
 
 If you aren't using adw-gtk3 don't use it and adapt it to your liking (Adapt it to GTK-3.0 style context colors)
+
+### adw-gtk3 Theme Customization
+
+If you are using a normal GTK-3.0 theme it's done, use a theme/template that uses GTK-3.0 style context colors and it will work normally.
+
+But if you are using adw-gtk3 you can customize theme colors with [Gradience](https://github.com/GradienceTeam/Gradience).
